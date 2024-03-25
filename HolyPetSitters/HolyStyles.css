@@ -1,0 +1,437 @@
+.social-icons {
+    position: absolute;
+    top: 0;
+    right: 0;
+	
+}
+
+.social-icon {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between icons */
+    color: white; /* Set icon color */
+    font-size: 20px; /* Set icon size */
+}
+
+
+h1 {
+	color: white; /* Set font color */
+}
+
+.header-container {
+    background-color:  black; /* Set background color */
+	display:flex;
+	height:140px;
+	margin-bottom:0px;
+	width:100%;
+	margin-top:25px;
+}
+
+nav {
+    display: flex; /* Use flexbox layout */
+    color: white; /* Set font color */
+}
+
+nav ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox layout for list items */
+	margin-top: 50px;
+	margin-left:350px;
+
+}
+.sign {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: flex-end; /* Align items to the right */
+    flex: 1; /* Allow the .sign container to take up remaining space */
+}
+
+.sign button{
+	 margin-left: 10px;
+	 margin-right:15px;
+	 background-color:gold;
+}
+
+
+nav ul li{
+	margin-right:25px;
+	
+}
+
+.info{
+	text-align:center;
+	background-color:white;
+	color:black;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 120%;
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+
+.intro h1{
+	text-align:center;
+	color:black;
+}
+
+
+	
+	
+	
+}
+.circle-image {
+    border-radius: 75%; /* Make the border radius 50% to create a circle */
+}
+
+.background-container {
+    background-image: url("cole-wyland-1hLSnDbAj80-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative; /* Make the container a positioned parent */
+}
+
+.overlay-text {
+    position: absolute; /* Position the text relative to the container */
+    top: 50%; /* Align the text vertically in the middle */
+    left: 50%; /* Align the text horizontally in the middle */
+    transform: translate(-50%, -50%); /* Center the text */
+    color: black; /* Set the text color */
+    font-size: 24px; /* Set the font size */
+}
+
+.services-container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: auto; /* Adjust height as needed */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.services {
+    width: 35%; /* Set the width of each service container */
+    height: auto; /* Allow height to adjust based on content */
+    background-size: cover;
+    color: black;
+    background-color: white;
+    margin: 20px; /* Add margin to create space between containers */
+    display: flex; /* Make each service container a flex container */
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+	font-family: 'Times New Roman', Times, serif;
+	border-radius:3%;
+	
+}
+.services img{
+	border-radius:50%;
+	border-width:100px;
+	border-bottom-color:red;
+}
+.services input{
+	margin-bottom:10px;
+	width:75%;
+	height:15%;
+	font-weight:100%;
+	border-radius:5%;
+	
+}
+
+.services button{
+	width:300px;
+	height:45px;
+	margin-bottom:20px;
+	border:2px solid black;
+	border-radius:3px;
+	background-color:gold;
+	
+}
+.services p{
+	text-align:center;
+}
+
+.quick-order-container{
+	background-color:white;
+	display:flex;
+	justify-content:center;
+}
+
+.quick-order-container-item1{
+	text-align:center;
+	color:black;
+}
+quick-order-container-item2{
+	text-align:center;
+	color:white;
+}
+form{
+	
+	display:flex;
+	flex-direction:column;
+}
+a{
+	text-decoration:none;
+	color: inherit; 
+	
+}
+
+.welcome{
+	background-image:url("gotdaflow-P8_RmeffU-w-unsplash.jpg");
+	background-size: cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	height:400px;
+	
+	margin left:0px;
+	margin-top:0px;
+	font-family:serif;
+	margin:center;
+
+	
+}
+
+.welcome h2{
+	color:white;
+	
+	text-align:center;
+	margin-top:30px;
+
+}
+.welcome input{
+	
+	margin-bottom:100px;
+	
+	
+	background-color:rgb(31, 196, 103);
+	color:black;
+	height:85%;
+	width:30%;
+	text-align:center;
+	padding-left:10px;
+	
+	
+}
+
+.welcome p{
+	
+	margin-bottom:10px;
+	padding-left:20px;
+	color:white;
+	text-align:center;
+	color:white;
+	
+}
+
+.welcome-container{
+	background-color:rgb(15, 26, 26);
+	width:40%;
+	height:200px;
+	margin-top:30px;
+	border-radius:3%;
+	padding-top:40px;
+	margin:20px;
+	margin-top:20px;
+	justify:center;
+	
+}
+
+.welcome-container button{
+	padding-left:25px;
+	display:flex;
+	align-items:center;
+}
+
+.welcome-container h2{
+	color:gold;
+}
+footer{
+	background-color:black;
+	color:white;
+	height:115px;
+	display:flex;
+	
+	
+}
+
+
+
+.left{
+	
+	color:white;
+	margin-left:auto;
+}
+
+footer ul{
+	list-style:none;
+	text-align:left;
+	justify-content:right;
+}
+
+.login {
+    color: white;
+    display: flex;
+    background-color: black;
+    width: 350px;
+    justify-content: center;
+    margin: auto; /* Center horizontally */
+    padding: 20px; /* Add padding to the login form */
+}
+form {
+    width: 100%; /* Make form fill its container */
+}
+label {
+    display: block; /* Ensure labels are on their own line */
+    margin-bottom: 10px; /* Add spacing between labels */
+}
+.login input {
+    width: 95%; /* Make input fields fill their container */
+    padding: 8px; /* Add padding to input fields */
+    margin-bottom: 15px; /* Add spacing between input fields */
+	background-color:white;
+	
+	
+}
+button:hover {
+    background-color: #45a049;
+}
+
+.container-services2{
+	background-color:white;
+	background-size: cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	height:auto;
+	display:flex;
+	flex-direction:column;
+	
+	}
+
+.container-services2 h1{
+	color:black;
+	justify-content:center;
+	text-align:center;
+
+}
+.box{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	
+	height:400px;
+	
+}
+.services-item2{
+	background-color:rgb(231, 210, 210);
+	width:75%;
+	height:300px;
+	border-radius:1%;
+	padding-left:30px;
+	margin-top:10px;
+}
+.services-item1{
+	background-color:rgb(188, 188, 188);
+	width:75%;
+	height:300px;
+	border-radius:1%;
+	border-width:25%;
+	border-color:red;
+	text-align:center-left;
+	padding-left:30px;
+	margin-top:0px;
+}
+
+.box img{
+	border-radius:5%;
+	border-bottom-width:10px;
+	border-bottom-color:red;
+}
+
+.box button{
+	background-color:gold;
+	width:150px;
+	height:40px;
+	font-weight:bold;
+}
+
+button:hover{
+	cursor:pointer;
+}
+
+a:hover{
+	background-color:gold;
+}
+
+.pet-sitter {
+            margin-bottom: 20px;
+            border: 3px solid #ccc;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+}
+
+.profile-picture {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+}
+
+.pet-sitter-info {
+            flex-grow: 1;
+        }
+
+        /* Style for booking button */
+.booking-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+}
+
+        /* Style for star rating */
+        .star-rating {
+            color: gold;
+        }
+
+        /* Style for heading */
+h2 {
+            text-align: center;
+        }
+		
+/* Style for heading */
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style for confirmation message */
+.confirmation-message {
+    max-width: 600px;
+    margin: 0 ;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-message p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style for return to home page link */
+.confirmation-message a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.confirmation-message a:hover {
+    color: #0056b3;
+}
